@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>cnhylbhatbayvar@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>Paul Young</string>
+	<key>description</key>
+	<string>Support for Grid Style Sheets.</string>
+	<key>name</key>
+	<string>GSS</string>
+	<key>uuid</key>
+	<string>BCCDDDC2-0A9C-4C4E-B98F-07BB1BA6E7D4</string>
+</dict>
+</plist>
