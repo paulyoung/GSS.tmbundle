@@ -6,6 +6,17 @@
   "uuid": "cf93e33d-148f-40cc-ac4c-dc49dcd5f287",
 
   "patterns": [
+    { "include": "#virtual" }
+  ],
 
-  ]
+  "repository": {
+    "virtual": {
+      "match": "(@(?:-gss-virtual|virtual))((?:\\s\"[^\"]+\")+)",
+      "comment": "Virtual element declaration.",
+      "captures": {
+        "1": { "name": "variable.language.ccss" },
+        "2": { "name": "string.quoted.double.ccss" }
+      }
+    }
+  }
 }

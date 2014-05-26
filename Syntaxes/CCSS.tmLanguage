@@ -9,7 +9,35 @@
 	<key>name</key>
 	<string>CCSS</string>
 	<key>patterns</key>
-	<array/>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>#virtual</string>
+		</dict>
+	</array>
+	<key>repository</key>
+	<dict>
+		<key>virtual</key>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.ccss</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>string.quoted.double.ccss</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Virtual element declaration.</string>
+			<key>match</key>
+			<string>(@(?:-gss-virtual|virtual))((?:\s"[^"]+")+)</string>
+		</dict>
+	</dict>
 	<key>scopeName</key>
 	<string>source.ccss</string>
 	<key>uuid</key>
