@@ -6,6 +6,9 @@
   "uuid": "e100912f-23dc-45f3-91c5-93d2c898d6da",
 
   "patterns": [
-
+    { "include": "source.css" },
+    { "include": "source.ccss" },
+    { "include": "source.vfl" },
+    { "include": "source.vgl" }
   ]
 }
