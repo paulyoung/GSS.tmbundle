@@ -1,0 +1,11 @@
+// [PackageDev] target_format: plist, ext: tmLanguage
+{
+  "name": "GSS",
+  "scopeName": "source.gss",
+  "fileTypes": ["gss"],
+  "uuid": "e100912f-23dc-45f3-91c5-93d2c898d6da",
+
+  "patterns": [
+
+  ]
+}

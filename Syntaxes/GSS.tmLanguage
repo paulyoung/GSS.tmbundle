@@ -9,34 +9,10 @@
 	<key>name</key>
 	<string>GSS</string>
 	<key>patterns</key>
-	<array>
-		<dict>
-			<key>match</key>
-			<string>\b(if|while|for|return)\b</string>
-			<key>name</key>
-			<string>keyword.control.untitled</string>
-		</dict>
-		<dict>
-			<key>begin</key>
-			<string>"</string>
-			<key>end</key>
-			<string>"</string>
-			<key>name</key>
-			<string>string.quoted.double.untitled</string>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>match</key>
-					<string>\.</string>
-					<key>name</key>
-					<string>constant.character.escape.untitled</string>
-				</dict>
-			</array>
-		</dict>
-	</array>
+	<array/>
 	<key>scopeName</key>
 	<string>source.gss</string>
 	<key>uuid</key>
-	<string>CB960223-A624-41EE-97E9-B811BF43A2FF</string>
+	<string>e100912f-23dc-45f3-91c5-93d2c898d6da</string>
 </dict>
 </plist>
